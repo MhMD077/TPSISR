@@ -1,0 +1,136 @@
+/* Réinitialisation et styles de base */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF; /* Fond blanc */
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 60px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #8B008B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-actions button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-actions .deposer-recette {
+    background-color: #8B008B;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background-color: #8B008B;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Hero */
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Section Recettes du Jour */
+.recettes-du-jour {
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(165, 5, 157);
+}
+
+.recettes-du-jour h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-card {
+    color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Fond blanc pour les cartes */
+}
+
+.recipe-card:nth-child(1) {
+    border-top: 10px solid #32CD32; /* Bordure verte pour la première carte */
+}
+
+.recipe-card:nth-child(2) {
+    border-top: 10px solid #4169E1; /* Bordure bleue pour la deuxième carte */
+}
+
+.recipe-card:nth-child(3) {
+    border-top: 10px solid #8B008B; /* Bordure violette pour la troisième carte */
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
