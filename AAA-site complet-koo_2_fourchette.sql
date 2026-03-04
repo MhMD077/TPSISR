@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
 
 INSERT INTO `categories` (`idCategorie`, `nom`) VALUES
 (1, 'viande'),
-(2, 'lÃ©gume'),
+(2, 'légume'),
 (3, 'poisson'),
 (4, 'fruit');
 
